@@ -15,8 +15,8 @@ The Application is organized in this way:\
     ○ album name\
     ○ the album image or a generic icon if the image doesn’t exist\
 ● The API call must be done only in these cases:\
-○ on the first launch (choose a default value for the input field)\
-    ○ when the refresh button is pressed\
+    ○ on the first launch (choose a default value for the input field)\
+    ○ when the refresh button is pressed
 
 ## How to run it
 
@@ -36,6 +36,6 @@ You will also see any lint errors in the console.
 
 ## Notes
 
-In the file "song_api.js" I inserted some comments about how I used the iTunes public API.
-I decided to disable the search button if the user inserts the same input twice in a row because the result would be identhical (it is possible to simply change one character to search again, in that case the result is slightly different, and then reinsert the previous value), unless the API call fails for a connection/server problem because in that case the input might be correct and the user can try again with same value later.
+In the file "song_api.js" I inserted some comments about how I used the iTunes public API.\
+I decided to disable the search button if the user inserts the same input twice in a row because the result would be identhical (it is possible to simply change one character to search again, in that case the result is slightly different, and then reinsert the previous value), unless the API call fails for a connection/server problem because in that case the input might be correct and the user can try again with same value later.\
 The API call is made with the library "axios".
