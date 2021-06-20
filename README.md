@@ -4,19 +4,19 @@ This project is an application that lists the first 50 songs of an artist/group 
 
 ## Requirements
 
-The Application is organized in this way:
-● A single page with the songs list from that artist/group.
-● The page title (document in JS) must be the artist/group name.
-● The page must contain an input field and a "search button".
-● In the text input you can insert the name of the artist/group.
-● The search button should make a new call to iTunes with the artist/group contained in the input field.
-● Each element of the list must contain the following elements:
-    ○ song name
-    ○ album name
-    ○ the album image or a generic icon if the image doesn’t exist
-● The API call must be done only in these cases:
-○ on the first launch (choose a default value for the input field)
-    ○ when the refresh button is pressed
+The Application is organized in this way:\
+● A single page with the songs list from that artist/group.\
+● The page title (document in JS) must be the artist/group name.\
+● The page must contain an input field and a "search button".\
+● In the text input you can insert the name of the artist/group.\
+● The search button should make a new call to iTunes with the artist/group contained in the input field.\
+● Each element of the list must contain the following elements:\
+    ○ song name\
+    ○ album name\
+    ○ the album image or a generic icon if the image doesn’t exist\
+● The API call must be done only in these cases:\
+○ on the first launch (choose a default value for the input field)\
+    ○ when the refresh button is pressed\
 
 ## How to run it
 
