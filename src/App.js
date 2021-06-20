@@ -59,7 +59,6 @@ export default class App extends React.Component {
 						placeholder={"e.g. " + this.state.defaultArtist}
 						defaultValue={this.state.defaultArtist}
 						onChange={this.changeArtist}
-						onBlur={this.checkMissingInput}
 					/>
 					<br />
 					<button id="searchButton" className="btn btn-primary smallMarginTop" disabled={this.state.buttonDisabled} onClick={this.getNewSongsList}>Search!</button>
