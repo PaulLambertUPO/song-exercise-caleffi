@@ -1,0 +1,61 @@
+.app {
+	text-align: center;
+	overflow-x: hidden;
+	margin-left: 5px;
+	margin-right: 5pX;
+}
+
+.bigMarginTop {
+	margin-top: 25px;
+}
+
+.smallMarginTop {
+	margin-top: 10px;
+}
+
+.rowSeparator {
+	border-top: 1px solid silver;
+	padding-top: 5px;
+}
+
+.categoryTitle {
+	font-weight: bold;
+}
+
+.paddingInput {
+	padding: 2px 10px;
+}
+
+#searchButton:disabled {
+	cursor: not-allowed;
+}
+
+.disabledInfoSameInput {
+	font-size: 0.65rem;
+}
+
+.disabledInfoMissingInput {
+	font-size: 0.6rem;
+}
+
+.responsiveWidth {
+	width: 40%;
+}
+
+@media screen and (max-width: 450px) {
+	.responsiveWidth {
+		width: 95%;
+	}
+}
+
+@media screen and (min-width: 451px) and (max-width: 767px) {
+	.responsiveWidth {
+		width: 70%;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.responsiveWidth {
+		width: 55%;
+	}
+}
