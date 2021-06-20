@@ -32,6 +32,7 @@ export default class App extends React.Component {
 	
 	getNewSongsList = function() {
 		songApi.getSongsList(this.state.currentArtist, this);
+		document.title = this.state.currentArtist;
 	}
 	
 	render() {
