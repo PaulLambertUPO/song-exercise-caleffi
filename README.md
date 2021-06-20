@@ -20,7 +20,7 @@ The Application is organized in this way:\
 
 ## How to run it
 
-Download the project and make sure you have installed latest version of Node.js (), then move to the folder by using its command prompt and use the following commands:
+Download the project and make sure you have installed latest version of Node.js (https://nodejs.org/it/download/), then move to the folder by using its command prompt and use the following commands:
 
 ### `npm install --save`
 
